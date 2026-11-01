@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynnet Njangiru - Contact</title>
+</head>
+<body>
+
+    <header>
+        <p><strong>Lynnet Njangiru</strong></p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><strong>Contact</strong></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Me</h1>
+        <p>If you want to ask me something, fill in this form.</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Your details</legend>
+
+                <p>
+                    <label for="full-name">Full Name</label><br>
+                    <input type="text" id="full-name" name="fullName" placeholder="e.g. Lynnet Njangiru" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email" placeholder="name@gmail.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number (optional)</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="0712 345 678">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your message</legend>
+
+                <p>
+                    <label for="subject">Subject</label><br>
+                    <select id="subject" name="subject" required>
+                        <option value="">Please choose a subject</option>
+                        <option value="question">A question about my work</option>
+                        <option value="feedback">Feedback on my website</option>
+                        <option value="hello">Just saying hello</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="7" cols="40"
+                        placeholder="Write at least 50 characters here..."
+                        minlength="50" required></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to my newsletter</label>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit">Send Message</button>
+            </p>
+        </form>
+
+        <section>
+            <h2>Other ways to reach me</h2>
+            <ul>
+                <li><a href="mailto:lynnnjangiru149@gmail.com">Email: lynnnjangiru149@gmail.com</a></li>
+                <li><a href="tel:+254712345678">Call: 0712 345 678</a></li>
+                <li><a href="https://github.com/lynnnjangiru">My GitHub profile</a></li>
+                <li><a href="https://www.linkedin.com">My LinkedIn profile</a></li>
+            </ul>
+
+            <h2>Where I am</h2>
+            <address>
+                Nairobi, Kenya<br>
+                East Africa Time (UTC+3)
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lynnet Njangiru</p>
+    </footer>
+
+</body>
+</html>
