@@ -1,1 +1,1 @@
-# iyf-s12-week01-web-foundations-LynnetNjangiru
+# iyf-s12-week01-LynnetNjangiru
